@@ -33,7 +33,7 @@ export default {
       about,
       instructions,
       opening_hours,
-      opens_at_weekends,
+      opens_at_weekends: Boolean(opens_at_weekends),
       images,
     };
 
